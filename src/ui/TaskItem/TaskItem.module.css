@@ -1,0 +1,45 @@
+.default {
+  border: 5px solid black;
+}
+
+.task {
+  border: 5px solid black;
+  padding: 5px 10px;
+  background: rgb(251, 166, 117);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.task.selected {
+  border-color: blue;
+}
+
+.tasks_title {
+  text-decoration-line: line-through;
+  margin: 16px 0;
+}
+
+.container_tasks {
+
+}
+
+.priority_0 {
+  background: #ffffff
+}
+
+.priority_1 {
+  background: #ffd7b5
+}
+
+.priority_2 {
+  background: #ffb38a
+}
+
+.priority_3 {
+  background: #ff9248
+}
+
+.priority_4 {
+  background: #ff6700
+}
+
