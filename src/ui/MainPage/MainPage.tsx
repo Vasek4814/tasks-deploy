@@ -8,8 +8,10 @@ export function MainPage() {
   const {selectedTaskId, setSelectedTaskId, boardId, setBoardId} = useTaskSelection()
   return (
     <div>
-      <div className={styles.container}>
+      <div>
         <PageTitle/>
+      </div>
+      <div className={styles.container}>
         <TasksList
           onTaskSelected={(taskId: string | null, boardId: string | null): void => {
             setSelectedTaskId(taskId)
